@@ -1,0 +1,68 @@
+* {
+   margin: 0%;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+     background:linear-gradient(to left top , rgb(140, 174, 224) , rgb(214, 6, 204),rgb(56, 24, 240)) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   min-height: 100vh;
+   color: white;
+  
+}
+
+.title {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title::first-letter {
+    font-size: 5rem;
+}
+
+ p {
+    font-size: 24px;
+    margin: 4px;
+}
+
+p::first-letter {
+    font-size: 3rem;
+}
+
+.courses {
+     width: 600px;
+     padding: 20px;
+    border-radius: 10px;
+}
+
+#course-list {
+    padding: 20px;
+}
+
+
+h4 {
+    font-size: 24px;
+
+}
+
+.register , #login {
+    background-color: rgba(255, 255, 255, .1);
+    padding:10px 20px ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 5px 10px rgba(0,0, 0, .7) ;
+    margin: 10px 10px;
+    transition: all .3s ease-in-out ;
+    cursor: pointer;
+    
+}
+
+.register:hover, #login:hover {
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
